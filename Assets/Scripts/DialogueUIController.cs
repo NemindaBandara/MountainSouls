@@ -14,7 +14,9 @@ public class DialogueUIController : MonoBehaviour
   {
     // Speaker: Milo
     // Action/Internal POV: Physical canine cues + clear directive to the hikers
-    ShowDialogue("Milo", "*Turns back toward the hikers and gives a sharp, urgent bark.* [Obstacle ahead: Loose shale on the incline.]");
+    HideDialogue();
+    //ShowDialogue("Milo", "*Turns back toward the hikers and gives a sharp, urgent bark.* [Obstacle ahead: Loose shale on the incline.]");
+
   }
 
   public void ShowDialogue(string speaker, string content)
